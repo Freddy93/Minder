@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Minder</string>
     <string name="title_patient_detail">Patient Detail</string>
+    <string name="title_activity_main_overview">MainOverview</string>
+
+    <string name="title_activity_wound_swipe">woundSwipe</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_wound_swype">woundSwype</string>
 </resources>

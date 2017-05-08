@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.frederiklentjes.minder.MainOverview"
+    tools:showIn="@layout/activity_main_overview">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="121dp"
+        android:layout_height="116dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:onClick="list_onClick"
+        app:backgroundTint="@android:color/holo_blue_light"
+        app:srcCompat="@android:drawable/ic_menu_report_image"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton5"
+        android:layout_width="117dp"
+        android:layout_height="118dp"
+        android:clickable="true"
+        android:onClick="picture_onClick"
+        app:backgroundTint="@android:color/holo_green_light"
+        app:fabSize="mini"
+        app:srcCompat="@android:drawable/ic_menu_sort_by_size"
+        tools:layout_editor_absoluteX="317dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="324dp"
+        android:layout_height="192dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+</android.support.constraint.ConstraintLayout>

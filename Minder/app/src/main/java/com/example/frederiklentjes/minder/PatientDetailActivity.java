@@ -67,6 +67,7 @@ public class PatientDetailActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
+        setContentView(R.layout.activity_wound_swype);
         if (id == android.R.id.home) {
             // This ID represents the Home or Up button. In the case of this
             // activity, the Up button is shown. Use NavUtils to allow users
@@ -75,6 +76,7 @@ public class PatientDetailActivity extends AppCompatActivity {
             //
             // http://developer.android.com/design/patterns/navigation.html#up-vs-back
             //
+
             NavUtils.navigateUpTo(this, new Intent(this, PatientListActivity.class));
             return true;
         }
